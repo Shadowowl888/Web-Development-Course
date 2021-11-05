@@ -1,10 +1,9 @@
-import { Text, Center, Button, Box, Heading, VStack } from "@chakra-ui/react";
+import { Center, Button, Heading, VStack } from "@chakra-ui/react";
 import { useState } from "react";
 
 export default function State(): JSX.Element {
 	const [money, setMoney] = useState(0);
 	const [boat, setBoat] = useState(0);
-	var time;
 	setTimeout(alertFunc, 3000);
 
 	return (

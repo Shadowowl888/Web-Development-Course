@@ -1,4 +1,4 @@
-import { Center, Box, Text } from "@chakra-ui/react";
+import { Center, Text } from "@chakra-ui/react";
 import { useColorModeValue } from "@chakra-ui/react";
 
 export default function Lesson7() {

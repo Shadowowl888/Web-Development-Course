@@ -1,4 +1,4 @@
-import { HStack, VStack, Image, Heading, Text, Button } from "@chakra-ui/react";
+import { HStack, VStack, Heading, Text } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import axios from "axios";
 
@@ -8,7 +8,7 @@ export default function Lesson6() {
 
 	const [pokemon, setPokemon] = useState() as any;
 
-	//@ts.ignore
+	//@ts-ignore
 	useEffect(async () => {
 		const { data } = await axios.get(
 			`https://pokeapi.co/api/v2/pokemon/${randomPokemon}`

@@ -1,12 +1,4 @@
-import {
-	Center,
-	Text,
-	Box,
-	VStack,
-	HStack,
-	Link,
-	Image,
-} from "@chakra-ui/react";
+import { Center, Text, VStack, HStack, Link, Image } from "@chakra-ui/react";
 
 let friends = [
 	{
