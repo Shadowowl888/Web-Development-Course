@@ -21,7 +21,7 @@
 		"kill": "taskkill /f /im node.exe"
 	},
 	"dependencies": {
-		"@babel/core": "^7.15.5",
+		"@babel/core": "^7.17.12",
 		"@chakra-ui/icons": "^1.0.15",
 		"@chakra-ui/react": "^1.6.7",
 		"@emotion/react": "^11.4.1",
@@ -35,7 +35,7 @@
 	},
 	"devDependencies": {
 		"@babel/preset-typescript": "^7.15.0",
-		"@types/babel__core": "^7.1.16",
+		"@types/babel__core": "^7.1.19",
 		"@types/node": "^16.9.1",
 		"@types/react": "^17.0.20",
 		"eslint": "^7.32.0",
